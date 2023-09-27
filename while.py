@@ -4,12 +4,13 @@ way_1 = False
 way_2 = False
 way_3 = False
 
-while way_1 == False or way_2 == False or way_3 == False:
-
-    print(name, 'приехал к камню, на камне написанно:')
+print(name, 'приехал к камню, на камне написанно:')
     print('налево поедешь - убит будешь,')
     print('прямо поедешь - женат будешь,')
     print('направо поедешь - богат будешь,')
+
+while way_1 == False or way_2 == False or way_3 == False:
+
 
     way = input('Куда ехать? ')
 
